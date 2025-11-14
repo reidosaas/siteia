@@ -313,6 +313,10 @@ function App() {
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   <span className="text-gray-700">Até 100 rastreadores ativos</span>
                 </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
+                  <span className="text-gray-700">+ adesão</span>
+                </div>
               </div>
 
               <a
