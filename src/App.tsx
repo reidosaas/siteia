@@ -350,10 +350,6 @@ function App() {
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-yellow-400 mr-3" />
-                  <span>Notificações push em tempo real</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-yellow-400 mr-3" />
                   <span>App iOS disponível</span>
                 </div>
                 <div className="flex items-center">
