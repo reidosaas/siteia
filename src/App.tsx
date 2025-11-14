@@ -315,9 +315,14 @@ function App() {
                 </div>
               </div>
 
-              <button className="w-full bg-white border-2 border-blue-500 text-blue-600 py-3 rounded-lg font-semibold hover:bg-blue-50 hover:border-blue-600 transition-all transform hover:scale-105 shadow-lg">
+              <a
+                href="https://wa.me/5511966583001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-white border-2 border-blue-500 text-blue-600 py-3 rounded-lg font-semibold hover:bg-blue-50 hover:border-blue-600 transition-all transform hover:scale-105 shadow-lg block text-center"
+              >
                 Contratar Plano Start
-              </button>
+              </a>
             </div>
 
             {/* Professional Plan - Highlighted */}
@@ -359,9 +364,14 @@ function App() {
                 </div>
               </div>
 
-              <button className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 py-3 rounded-lg font-semibold hover:from-yellow-500 hover:to-yellow-600 transition-all shadow-lg transform hover:scale-105">
+              <a
+                href="https://wa.me/5511966583001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 py-3 rounded-lg font-semibold hover:from-yellow-500 hover:to-yellow-600 transition-all shadow-lg transform hover:scale-105 block text-center"
+              >
                 Contratar Plano Profissional
-              </button>
+              </a>
             </div>
           </div>
         </div>
