@@ -286,7 +286,6 @@ function App() {
                 <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent mb-2">
                   R$ 197<span className="text-lg text-gray-600 font-normal">/mês</span>
                 </div>
-                <p className="text-sm text-gray-500">+ adesão</p>
               </div>
 
               <div className="space-y-4 mb-8">
@@ -314,16 +313,11 @@ function App() {
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   <span className="text-gray-700">Até 100 rastreadores ativos</span>
                 </div>
-                </div>
+              </div>
 
-              <a
-                href="https://wa.me/5511966583001"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full bg-white border-2 border-blue-500 text-blue-600 py-3 rounded-lg font-semibold hover:bg-blue-50 hover:border-blue-600 transition-all transform hover:scale-105 shadow-lg block text-center"
-              >
+              <button className="w-full bg-white border-2 border-blue-500 text-blue-600 py-3 rounded-lg font-semibold hover:bg-blue-50 hover:border-blue-600 transition-all transform hover:scale-105 shadow-lg">
                 Contratar Plano Start
-              </a>
+              </button>
             </div>
 
             {/* Professional Plan - Highlighted */}
@@ -340,13 +334,16 @@ function App() {
                 <div className="text-4xl font-bold mb-2">
                   R$ 347<span className="text-lg text-blue-200 font-normal">/mês</span>
                 </div>
-                <p className="text-sm text-blue-200">+ adesão</p>
               </div>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-yellow-400 mr-3" />
                   <span>Todos os recursos do plano Start</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-yellow-400 mr-3" />
+                  <span>Notificações push em tempo real</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-yellow-400 mr-3" />
@@ -362,14 +359,9 @@ function App() {
                 </div>
               </div>
 
-              <a
-                href="https://wa.me/5511966583001"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 py-3 rounded-lg font-semibold hover:from-yellow-500 hover:to-yellow-600 transition-all shadow-lg transform hover:scale-105 block text-center"
-              >
+              <button className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 py-3 rounded-lg font-semibold hover:from-yellow-500 hover:to-yellow-600 transition-all shadow-lg transform hover:scale-105">
                 Contratar Plano Profissional
-              </a>
+              </button>
             </div>
           </div>
         </div>
