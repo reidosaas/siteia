@@ -286,6 +286,7 @@ function App() {
                 <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent mb-2">
                   R$ 197<span className="text-lg text-gray-600 font-normal">/mês</span>
                 </div>
+                <p className="text-sm text-gray-500">+ adesão</p>
               </div>
 
               <div className="space-y-4 mb-8">
@@ -313,11 +314,7 @@ function App() {
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   <span className="text-gray-700">Até 100 rastreadores ativos</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-                  <span className="text-gray-700">+ adesão</span>
                 </div>
-              </div>
 
               <a
                 href="https://wa.me/5511966583001"
@@ -343,6 +340,7 @@ function App() {
                 <div className="text-4xl font-bold mb-2">
                   R$ 347<span className="text-lg text-blue-200 font-normal">/mês</span>
                 </div>
+                <p className="text-sm text-blue-200">+ adesão</p>
               </div>
 
               <div className="space-y-4 mb-8">
